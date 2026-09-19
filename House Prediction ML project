@@ -53,7 +53,7 @@
           "height": 226
         },
         "id": "Vc4DFF2btV_9",
-        "outputId": "241bfa14-c408-4246-eecc-f50c579344b5"
+        "outputId": "e9ae712f-091c-4e4f-cba4-fb9c12823fd1"
       },
       "execution_count": 2,
       "outputs": [
@@ -84,7 +84,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-091080f9-5270-4a80-8b2e-86b363a05db1\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-87a58236-cd26-46a5-b530-94754dc25613\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -205,7 +205,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-091080f9-5270-4a80-8b2e-86b363a05db1')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-87a58236-cd26-46a5-b530-94754dc25613')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -257,12 +257,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-091080f9-5270-4a80-8b2e-86b363a05db1 button.colab-df-convert');\n",
+              "        document.querySelector('#df-87a58236-cd26-46a5-b530-94754dc25613 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-091080f9-5270-4a80-8b2e-86b363a05db1');\n",
+              "        const element = document.querySelector('#df-87a58236-cd26-46a5-b530-94754dc25613');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -305,7 +305,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "97y34i8tt6bc",
-        "outputId": "9e3ecbc2-ff2c-4ec2-f584-7757f69ef9a8"
+        "outputId": "cc19de16-8c25-4602-8c43-422943bd0bd7"
       },
       "execution_count": 3,
       "outputs": [
@@ -333,7 +333,7 @@
           "height": 226
         },
         "id": "gvkDYQZyu3vB",
-        "outputId": "68aaff14-4015-4f41-b951-d6324dd94841"
+        "outputId": "d656e049-f94f-4073-cd50-090f43a85ad6"
       },
       "execution_count": 4,
       "outputs": [
@@ -364,7 +364,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-7ba8325b-0055-4ca3-9dd1-4456ed56edc1\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-2a7c3856-caae-4335-856a-164a35ad275e\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -485,7 +485,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-7ba8325b-0055-4ca3-9dd1-4456ed56edc1')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-2a7c3856-caae-4335-856a-164a35ad275e')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -537,12 +537,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-7ba8325b-0055-4ca3-9dd1-4456ed56edc1 button.colab-df-convert');\n",
+              "        document.querySelector('#df-2a7c3856-caae-4335-856a-164a35ad275e button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-7ba8325b-0055-4ca3-9dd1-4456ed56edc1');\n",
+              "        const element = document.querySelector('#df-2a7c3856-caae-4335-856a-164a35ad275e');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -587,7 +587,7 @@
           "height": 492
         },
         "id": "kd6RnV2SzAdF",
-        "outputId": "2923a3b8-bb86-4f52-edd2-6fccd13de86c"
+        "outputId": "3baaa4e1-b476-4413-a471-521d3501258b"
       },
       "execution_count": 5,
       "outputs": [
@@ -705,9 +705,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Z9KrEc-EzaK0",
-        "outputId": "b6085727-3046-4ebe-dc19-593264d1773c"
+        "outputId": "df2945ea-ec8e-450b-bdc9-a42e1d3b6974"
       },
-      "execution_count": 7,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -717,7 +717,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 7
+          "execution_count": 6
         }
       ]
     },
@@ -731,9 +731,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "y-2anx12xzj0",
-        "outputId": "70432156-b6ba-42f2-90f8-707ed7d23079"
+        "outputId": "35cea392-d80c-4e5c-81d8-3d0785c6add1"
       },
-      "execution_count": 8,
+      "execution_count": 7,
       "outputs": [
         {
           "output_type": "stream",
@@ -774,9 +774,9 @@
           "height": 320
         },
         "id": "vReK_ZobyRkh",
-        "outputId": "20ece8db-f5af-411f-ebc0-3a4d1ce9d7a1"
+        "outputId": "4a68b3ad-4fe5-4d45-f25d-bea96cb06eb4"
       },
-      "execution_count": 9,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -804,7 +804,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-46fd25dc-5227-4aac-9aed-a6d16d3c1479\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-7ed0e5a6-57fd-4f3e-abaa-ec5a2d3a8159\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -919,7 +919,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-46fd25dc-5227-4aac-9aed-a6d16d3c1479')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-7ed0e5a6-57fd-4f3e-abaa-ec5a2d3a8159')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -971,12 +971,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-46fd25dc-5227-4aac-9aed-a6d16d3c1479 button.colab-df-convert');\n",
+              "        document.querySelector('#df-7ed0e5a6-57fd-4f3e-abaa-ec5a2d3a8159 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-46fd25dc-5227-4aac-9aed-a6d16d3c1479');\n",
+              "        const element = document.querySelector('#df-7ed0e5a6-57fd-4f3e-abaa-ec5a2d3a8159');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1005,7 +1005,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 9
+          "execution_count": 8
         }
       ]
     },
@@ -1020,9 +1020,9 @@
           "height": 467
         },
         "id": "zgBF_Zcj1SQC",
-        "outputId": "f2c39565-5103-4504-cd8e-a0a2b4931672"
+        "outputId": "26f0db23-0ebe-4c0e-d3bf-4f0a99059412"
       },
-      "execution_count": 11,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1032,7 +1032,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 11
+          "execution_count": 9
         },
         {
           "output_type": "display_data",
@@ -1057,9 +1057,9 @@
           "height": 604
         },
         "id": "NcMZaddG3C85",
-        "outputId": "95b1fd9c-b31a-480f-eabc-9b63a8350fdd"
+        "outputId": "a7c0a624-4c2f-4a12-9bbe-380e57485622"
       },
-      "execution_count": 15,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1069,7 +1069,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 15
+          "execution_count": 10
         },
         {
           "output_type": "display_data",
@@ -1093,9 +1093,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "EvSPO_SF86g9",
-        "outputId": "7647e514-60de-4489-a1ce-0aa0ecc1804f"
+        "outputId": "d9f286c2-4a7a-4a92-e5e2-28ef581d2a02"
       },
-      "execution_count": 21,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1109,7 +1109,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 21
+          "execution_count": 11
         }
       ]
     },
@@ -1123,9 +1123,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "CcZ03j786b0V",
-        "outputId": "f470a2ed-4cce-46d9-b3ce-c138599952ce"
+        "outputId": "88aa5f11-d0eb-4d30-cc25-b665dfbc22c8"
       },
-      "execution_count": 22,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1135,7 +1135,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 22
+          "execution_count": 12
         }
       ]
     },
@@ -1151,9 +1151,9 @@
           "height": 467
         },
         "id": "HCdkEGOY7J3o",
-        "outputId": "7c8d0bd6-63e6-4e2a-d2fc-07eb54075adc"
+        "outputId": "72986868-e1c2-4d55-fa2d-6a09f050a806"
       },
-      "execution_count": 23,
+      "execution_count": 13,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1163,7 +1163,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 23
+          "execution_count": 13
         },
         {
           "output_type": "display_data",
@@ -1188,9 +1188,9 @@
           "height": 467
         },
         "id": "ivdEDT6u8vUi",
-        "outputId": "6029ba05-3bed-4c48-c651-933142767ae1"
+        "outputId": "0d840175-41fa-4d3c-db31-0983212075c8"
       },
-      "execution_count": 27,
+      "execution_count": 14,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1200,7 +1200,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 27
+          "execution_count": 14
         },
         {
           "output_type": "display_data",
@@ -1224,9 +1224,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "L2dCehN992fa",
-        "outputId": "37e9f12a-e755-4994-8c67-2735fd06b22f"
+        "outputId": "da517ee5-fc25-40be-8023-c5464f3dcd23"
       },
-      "execution_count": 28,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1240,7 +1240,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 28
+          "execution_count": 15
         }
       ]
     },
@@ -1255,9 +1255,9 @@
           "height": 467
         },
         "id": "Hu7Co7lj95rR",
-        "outputId": "85e9b798-da1a-4a48-c19d-76d2a4852f4f"
+        "outputId": "f84b5712-6825-4f95-c595-caf9b77f53f8"
       },
-      "execution_count": 29,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1267,7 +1267,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 29
+          "execution_count": 16
         },
         {
           "output_type": "display_data",
@@ -1289,13 +1289,12 @@
       ],
       "metadata": {
         "colab": {
-          "base_uri": "https://localhost:8080/",
-          "height": 367
+          "base_uri": "https://localhost:8080/"
         },
         "id": "d3hpVHWh-pjd",
-        "outputId": "029df455-947d-4d80-f8d6-7f7249ddfd81"
+        "outputId": "e06b98c4-4e37-4eb0-b5e5-2f30f0dec7fa"
       },
-      "execution_count": 37,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "stream",
@@ -1316,14 +1315,6 @@
             "WeChat         36\n",
             "Name: count, dtype: int64\n"
           ]
-        },
-        {
-          "output_type": "error",
-          "ename": "SyntaxError",
-          "evalue": "keyword argument repeated: order (1916291995.py, line 3)",
-          "traceback": [
-            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_2252/1916291995.py\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\n\u001b[0;31m    sns.countplot(x='Most_Used_Platform',data = df,order=platform_counts.index, order = df['Most_Used_Platform'])\u001b[0m\n\u001b[0m                                                                                ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m keyword argument repeated: order\n"
-          ]
         }
       ]
     },
@@ -1338,9 +1329,9 @@
           "height": 492
         },
         "id": "8lCxR5px_rWi",
-        "outputId": "5eb48a14-976f-4ca3-f95b-874b928fe572"
+        "outputId": "79635fdf-c546-4027-f9f1-9db5ef110879"
       },
-      "execution_count": 35,
+      "execution_count": 18,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1442,7 +1433,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 35
+          "execution_count": 18
         }
       ]
     },
@@ -1457,9 +1448,9 @@
           "height": 467
         },
         "id": "APOEvrtEAYnY",
-        "outputId": "7d0efab7-f7e3-48a7-b32f-a9edc9ff1789"
+        "outputId": "5e1be339-01a7-4b4e-820d-0a5748635b7d"
       },
-      "execution_count": 40,
+      "execution_count": 19,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1469,7 +1460,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 40
+          "execution_count": 19
         },
         {
           "output_type": "display_data",
@@ -1512,9 +1503,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Wn1RKzgTBinL",
-        "outputId": "95997550-a85b-40cb-b7c1-f73ac37b507c"
+        "outputId": "47d94bc0-b547-440c-c73d-2d3ec893f7e6"
       },
-      "execution_count": 45,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
