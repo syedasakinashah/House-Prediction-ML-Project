@@ -161,24 +161,195 @@ Other
 This reduces unnecessary dimensionality while retaining useful information.
 
 ---
-
-## 🔢 Encoding Strategy
+🔢 Encoding Strategy
 
 Different types of categorical features require different encoding methods.
 
-### Ordinal Encoding
+Ordinal Encoding
 
-`Stress_Level` has a natural order:
+Stress_Level has a natural order:
 
-```text
 Low → Medium → High → Very High
-```
 
 Therefore, it is encoded using ordinal encoding:
 
-```text
 Low        → 0
 Medium     → 1
 High       → 2
-Very Hig
-```
+Very High  → 3
+One-Hot Encoding
+
+Features without a natural ranking are one-hot encoded:
+
+Gender
+Academic Level
+Most Used Platform
+Purpose of Use
+Grouped Country
+🧪 Train-Test Split
+
+The dataset is divided into:
+
+Training Data → 70%
+Testing Data  → 30%
+
+A separate test set allows the models to be evaluated on data they have not seen during training.
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X,
+    y,
+    test_size=0.30,
+    random_state=42
+)
+🔧 Preprocessing Pipeline
+
+A ColumnTransformer is used to apply different preprocessing operations to different feature types.
+
+Numerical Features
+Scaling using StandardScaler
+Skewed Feature
+
+Study_Hours is transformed using:
+
+np.log1p()
+
+and then scaled.
+
+Stress Level
+
+Ordinal encoding with an explicitly defined order.
+
+Categorical Features
+
+One-hot encoding with:
+
+OneHotEncoder(handle_unknown="ignore")
+🤖 Machine Learning Models
+
+Two regression approaches are tested.
+
+1. Linear Regression
+
+Used as the baseline model.
+
+LinearRegression()
+2. Random Forest Regressor
+
+A tree-based model capable of learning non-linear relationships.
+
+RandomForestRegressor(random_state=42)
+🎯 Hyperparameter Tuning
+
+The Random Forest model is further optimized using:
+
+RandomizedSearchCV
+
+Parameters explored include:
+
+n_estimators
+max_depth
+min_samples_split
+min_samples_leaf
+
+Five-fold cross-validation is used during the search.
+
+📈 Model Evaluation
+
+The models are evaluated using three regression metrics.
+
+R² Score
+
+Measures how much variation in the target variable is explained by the model.
+
+Higher values indicate that the model explains more of the observed variation.
+
+MAE — Mean Absolute Error
+
+Measures the average absolute difference between predicted and actual scores.
+
+Lower MAE = smaller average prediction error
+RMSE — Root Mean Squared Error
+
+Similar to MAE, but gives more weight to larger prediction errors.
+
+Lower RMSE = fewer/lower large prediction errors
+
+The project compares:
+
+Model	R²	MAE	RMSE
+Linear Regression	—	—	—
+Random Forest	—	—	—
+Tuned Random Forest	—	—	—
+
+The values are generated when the notebook is executed and are intentionally not hard-coded here.
+
+💾 Model Saving
+
+The complete Random Forest pipeline is saved using Joblib:
+
+joblib.dump(
+    rf_pipeline,
+    'Mental_Health_Model.pkl'
+)
+
+The saved pipeline contains both:
+
+Preprocessing + Model
+
+This means new raw input can be passed through the same preprocessing steps automatically during prediction.
+
+🚀 Future Development
+
+The next stage of the project is to turn the trained model into a usable application.
+
+Planned Architecture
+User
+ ↓
+Frontend
+ ↓
+FastAPI
+ ↓
+Saved ML Pipeline
+ ↓
+Prediction
+ ↓
+Mental Health Score
+Planned Features
+FastAPI backend
+Pydantic input validation
+/predict API endpoint
+Simple frontend
+Model deployment
+Interactive prediction interface
+📁 Project Structure
+student-mental-health-prediction/
+│
+├── data/
+│   └── Student_Social_Media_And_Mental_Health_Impact.csv
+│
+├── notebooks/
+│   └── mental_health_prediction.ipynb
+│
+├── models/
+│   └── Mental_Health_Model.pkl
+│
+├── README.md
+└── requirements.txt
+⚠️ Disclaimer
+
+This project is intended for educational and machine-learning experimentation purposes.
+
+The predicted score should not be treated as a medical diagnosis or professional mental-health assessment.
+
+👩‍💻 Author
+
+Nina
+
+Computer Science Student
+Machine Learning & AI Enthusiast
+
+⭐ Project Status
+
+Current: Machine Learning model development completed
+
+Next: FastAPI backend → Frontend → Deployment
