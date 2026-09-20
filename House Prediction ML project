@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMKztT5hG4MUaU7AwNSshxb",
+      "authorship_tag": "ABX9TyP/T/aaz56wxP/cNigc+AGS",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -3094,9 +3094,46 @@
     },
     {
       "cell_type": "code",
+      "source": [
+        "import joblib\n",
+        "joblib.dump(rf_pipeline, 'Mental_Health_Model.pkl')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z6KoJhCkLrdB",
+        "outputId": "d97ec439-f9bc-4a9a-fe56-3a26f88ed379"
+      },
+      "execution_count": 48,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['Mental_Health_Model.pkl']"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 48
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Next steps (Part 2):\n",
+        "build a FastAPI backend with Pydantic request validation that loads mental_health_pipeline.pkl and exposes a /predict endpoint, then connect a simple frontend, then deploy both so this becomes a live, clickable demo."
+      ],
+      "metadata": {
+        "id": "lCiySeFFMBAp"
+      }
+    },
+    {
+      "cell_type": "code",
       "source": [],
       "metadata": {
-        "id": "Z6KoJhCkLrdB"
+        "id": "plGKcpbJMEDp"
       },
       "execution_count": null,
       "outputs": []
