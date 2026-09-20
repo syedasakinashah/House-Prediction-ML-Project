@@ -411,7 +411,7 @@ The predicted score should **not** be treated as a medical diagnosis or professi
 
 ## 👩‍💻 Author
 
-**Nina**
+**Syeda Sakina Shahzadi Bukhari **
 
 Computer Science Student
 Machine Learning & AI Enthusiast
