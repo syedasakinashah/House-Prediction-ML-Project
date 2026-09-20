@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOu1LmGbApfn42NxbdCWeo0",
+      "authorship_tag": "ABX9TyOiBezToKyZceZNIDX0b/vn",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -28,7 +28,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 51,
+      "execution_count": 1,
       "metadata": {
         "id": "78HuDN8crm7h"
       },
@@ -53,9 +53,9 @@
           "height": 226
         },
         "id": "Vc4DFF2btV_9",
-        "outputId": "abf99251-9448-4b0c-e222-832a8de042a1"
+        "outputId": "e404d06c-3751-43be-a9a3-1e073a5a9206"
       },
-      "execution_count": 52,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "display_data",
@@ -84,7 +84,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-f127cd98-671e-46c4-8f0d-ba3d77e11d2c\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-9d481015-3337-4c4b-af08-d923160610df\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -205,7 +205,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f127cd98-671e-46c4-8f0d-ba3d77e11d2c')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-9d481015-3337-4c4b-af08-d923160610df')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -257,12 +257,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-f127cd98-671e-46c4-8f0d-ba3d77e11d2c button.colab-df-convert');\n",
+              "        document.querySelector('#df-9d481015-3337-4c4b-af08-d923160610df button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-f127cd98-671e-46c4-8f0d-ba3d77e11d2c');\n",
+              "        const element = document.querySelector('#df-9d481015-3337-4c4b-af08-d923160610df');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -305,9 +305,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "97y34i8tt6bc",
-        "outputId": "0e51714e-f9de-4e02-dcb1-902d44fb8bff"
+        "outputId": "ddcb87b1-1155-48f6-abdd-25910fd329a4"
       },
-      "execution_count": 53,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -317,7 +317,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 53
+          "execution_count": 3
         }
       ]
     },
@@ -333,9 +333,9 @@
           "height": 226
         },
         "id": "gvkDYQZyu3vB",
-        "outputId": "d0dafdb9-a4d4-4085-ebcc-5f2c2a2be76e"
+        "outputId": "29e6ee90-7af9-4260-d452-59e5058d7254"
       },
-      "execution_count": 54,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -364,7 +364,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-2a3e267e-ae14-4aa3-8a8b-e05e16c7f4f8\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-3059169f-b879-47a1-9ddb-a4ddeb61b9a2\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -485,7 +485,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-2a3e267e-ae14-4aa3-8a8b-e05e16c7f4f8')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-3059169f-b879-47a1-9ddb-a4ddeb61b9a2')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -537,12 +537,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-2a3e267e-ae14-4aa3-8a8b-e05e16c7f4f8 button.colab-df-convert');\n",
+              "        document.querySelector('#df-3059169f-b879-47a1-9ddb-a4ddeb61b9a2 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-2a3e267e-ae14-4aa3-8a8b-e05e16c7f4f8');\n",
+              "        const element = document.querySelector('#df-3059169f-b879-47a1-9ddb-a4ddeb61b9a2');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -572,7 +572,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 54
+          "execution_count": 4
         }
       ]
     },
@@ -587,9 +587,9 @@
           "height": 492
         },
         "id": "kd6RnV2SzAdF",
-        "outputId": "73958592-309a-4862-af73-ff5a509d5975"
+        "outputId": "a8becfcb-d6d1-4ecf-f546-66e882b4b13a"
       },
-      "execution_count": 55,
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -691,7 +691,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 55
+          "execution_count": 5
         }
       ]
     },
@@ -705,9 +705,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Z9KrEc-EzaK0",
-        "outputId": "6236b50a-abf8-407a-bbf8-8741bf1f2b21"
+        "outputId": "9ff1e107-2e16-4093-c028-b11838cb1bec"
       },
-      "execution_count": 56,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -717,7 +717,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 56
+          "execution_count": 6
         }
       ]
     },
@@ -731,9 +731,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "y-2anx12xzj0",
-        "outputId": "b98b5e52-838e-4747-b8b7-f8982343465f"
+        "outputId": "b76dfd59-0223-4ba8-9cab-b29c1e93dd81"
       },
-      "execution_count": 57,
+      "execution_count": 7,
       "outputs": [
         {
           "output_type": "stream",
@@ -774,9 +774,9 @@
           "height": 320
         },
         "id": "vReK_ZobyRkh",
-        "outputId": "e3e41bda-52dc-4f6b-c659-c00286263967"
+        "outputId": "9ae7665b-6b8a-4c15-c06a-4c3b5e02cf1e"
       },
-      "execution_count": 58,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -804,7 +804,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-4f3901cc-bfb9-4ca9-8156-e4805b714ffe\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-a4a07f9c-4e16-48b4-bf09-39abb5e7e14b\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -919,7 +919,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-4f3901cc-bfb9-4ca9-8156-e4805b714ffe')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-a4a07f9c-4e16-48b4-bf09-39abb5e7e14b')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -971,12 +971,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-4f3901cc-bfb9-4ca9-8156-e4805b714ffe button.colab-df-convert');\n",
+              "        document.querySelector('#df-a4a07f9c-4e16-48b4-bf09-39abb5e7e14b button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-4f3901cc-bfb9-4ca9-8156-e4805b714ffe');\n",
+              "        const element = document.querySelector('#df-a4a07f9c-4e16-48b4-bf09-39abb5e7e14b');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1005,7 +1005,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 58
+          "execution_count": 8
         }
       ]
     },
@@ -1020,9 +1020,9 @@
           "height": 366
         },
         "id": "zgBF_Zcj1SQC",
-        "outputId": "80f4127a-ec0e-439a-8ebe-37552c6a71ca"
+        "outputId": "d30d0e4f-210a-417d-c9bb-d2e558ae7861"
       },
-      "execution_count": 59,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1032,7 +1032,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 59
+          "execution_count": 9
         },
         {
           "output_type": "display_data",
@@ -1057,9 +1057,9 @@
           "height": 397
         },
         "id": "NcMZaddG3C85",
-        "outputId": "6b2e782e-34d8-4f97-fb0c-07f59c2d3fdd"
+        "outputId": "97ac64d3-ff66-4a0a-820a-cf5167b9fc06"
       },
-      "execution_count": 60,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1069,7 +1069,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 60
+          "execution_count": 10
         },
         {
           "output_type": "display_data",
@@ -1093,9 +1093,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "EvSPO_SF86g9",
-        "outputId": "7ee858ad-7378-42cf-cbe9-53c863bdfd0e"
+        "outputId": "fa6d2b7e-6677-472d-c041-82d8bceb0bb9"
       },
-      "execution_count": 61,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1109,7 +1109,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 61
+          "execution_count": 11
         }
       ]
     },
@@ -1123,9 +1123,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "CcZ03j786b0V",
-        "outputId": "b91eb18b-ece4-4936-fa64-11845d8a33e0"
+        "outputId": "f0edec07-9f5e-41a8-99f8-3da325a3a82a"
       },
-      "execution_count": 62,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1135,7 +1135,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 62
+          "execution_count": 12
         }
       ]
     },
@@ -1151,9 +1151,9 @@
           "height": 393
         },
         "id": "HCdkEGOY7J3o",
-        "outputId": "eb7ee268-57f4-4436-f58d-4976387d52ac"
+        "outputId": "445a3271-e4d8-4fbf-be42-65164017a8f4"
       },
-      "execution_count": 63,
+      "execution_count": 13,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1163,7 +1163,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 63
+          "execution_count": 13
         },
         {
           "output_type": "display_data",
@@ -1188,9 +1188,9 @@
           "height": 393
         },
         "id": "ivdEDT6u8vUi",
-        "outputId": "a6403e67-aba5-45d2-fb00-60371c719bca"
+        "outputId": "2b407d35-9dc4-4be9-84db-4faf9d062192"
       },
-      "execution_count": 64,
+      "execution_count": 14,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1200,7 +1200,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 64
+          "execution_count": 14
         },
         {
           "output_type": "display_data",
@@ -1224,9 +1224,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "L2dCehN992fa",
-        "outputId": "c66c4d44-0d6a-4a49-a21b-f37e113039c8"
+        "outputId": "109e517f-640b-4dfc-fd1e-08641e08a001"
       },
-      "execution_count": 65,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1240,7 +1240,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 65
+          "execution_count": 15
         }
       ]
     },
@@ -1255,9 +1255,9 @@
           "height": 393
         },
         "id": "Hu7Co7lj95rR",
-        "outputId": "576352dc-666e-43e3-9b96-f0f41520c97d"
+        "outputId": "03737b54-94da-42c0-b50c-2ec2de8ec946"
       },
-      "execution_count": 66,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1267,7 +1267,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 66
+          "execution_count": 16
         },
         {
           "output_type": "display_data",
@@ -1292,9 +1292,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "d3hpVHWh-pjd",
-        "outputId": "bb123877-7f70-41fa-f397-1b5d1a7df316"
+        "outputId": "fdffa997-6347-494e-c94c-795779334371"
       },
-      "execution_count": 67,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "stream",
@@ -1329,9 +1329,9 @@
           "height": 492
         },
         "id": "8lCxR5px_rWi",
-        "outputId": "d7b6efc5-1f0d-4232-bc1e-4afa67e819dc"
+        "outputId": "2199c30f-689a-46ef-9ebf-89c6fb0ded60"
       },
-      "execution_count": 68,
+      "execution_count": 18,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1433,7 +1433,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 68
+          "execution_count": 18
         }
       ]
     },
@@ -1448,9 +1448,9 @@
           "height": 357
         },
         "id": "APOEvrtEAYnY",
-        "outputId": "d842382d-6935-4dbc-ab6d-ecf871b63b6d"
+        "outputId": "b654b20f-910d-4892-d623-c937190bc62f"
       },
-      "execution_count": 69,
+      "execution_count": 19,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1460,7 +1460,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 69
+          "execution_count": 19
         },
         {
           "output_type": "display_data",
@@ -1503,9 +1503,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Wn1RKzgTBinL",
-        "outputId": "79d2feea-76e8-4800-d84b-6cd15a5f9949"
+        "outputId": "1dfad54d-a543-465d-a864-628d6a1b6976"
       },
-      "execution_count": 70,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "stream",
@@ -1543,9 +1543,9 @@
           "height": 320
         },
         "id": "h5EP2oQP_ahe",
-        "outputId": "78421d1f-b8f4-4f38-f102-14b8df682ef4"
+        "outputId": "7e880d04-cd00-4520-876f-9ae0f046f1df"
       },
-      "execution_count": 71,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1573,7 +1573,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-7345255a-3425-4f01-a489-b45dfa5ea5dd\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-f7820fd1-f241-425c-9bf1-9f55eddb864c\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -1688,7 +1688,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-7345255a-3425-4f01-a489-b45dfa5ea5dd')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f7820fd1-f241-425c-9bf1-9f55eddb864c')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1740,12 +1740,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-7345255a-3425-4f01-a489-b45dfa5ea5dd button.colab-df-convert');\n",
+              "        document.querySelector('#df-f7820fd1-f241-425c-9bf1-9f55eddb864c button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-7345255a-3425-4f01-a489-b45dfa5ea5dd');\n",
+              "        const element = document.querySelector('#df-f7820fd1-f241-425c-9bf1-9f55eddb864c');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1774,7 +1774,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 71
+          "execution_count": 22
         }
       ]
     },
@@ -1789,7 +1789,7 @@
       "metadata": {
         "id": "Qg5NtTiS-xbM"
       },
-      "execution_count": 72,
+      "execution_count": 23,
       "outputs": []
     },
     {
@@ -1818,7 +1818,7 @@
         },
         "outputId": "1ed42bd5-667f-4ec9-c130-0d8b4eeb066d"
       },
-      "execution_count": 73,
+      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1917,7 +1917,7 @@
       "metadata": {
         "id": "QmiCya1vzBPE"
       },
-      "execution_count": 74,
+      "execution_count": 24,
       "outputs": []
     },
     {
@@ -1932,9 +1932,9 @@
           "height": 460
         },
         "id": "DWr8nVmz04Cw",
-        "outputId": "c3623b74-b9b6-4604-bb32-8fd94b9c72a9"
+        "outputId": "a4c7eb50-d18c-4319-c989-06beef6ca5d5"
       },
-      "execution_count": 75,
+      "execution_count": 25,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2031,7 +2031,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 75
+          "execution_count": 25
         }
       ]
     },
@@ -2054,9 +2054,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "0vUPtrX46Ife",
-        "outputId": "366d5b9a-a82c-4bea-c567-d35b7699046e"
+        "outputId": "a79d32c4-8ce7-43f9-d699-a180c878130f"
       },
-      "execution_count": 114,
+      "execution_count": 26,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2070,7 +2070,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 114
+          "execution_count": 26
         }
       ]
     },
@@ -2078,40 +2078,60 @@
       "cell_type": "code",
       "source": [
         "from sklearn.model_selection import train_test_split\n",
-        "from sklearn.preprocessing import OneHotEncoder, StandardScaler, OrdinalEncoder\n",
-        "from sklearn.compose import ColumnTransformer\n",
-        "from sklearn.pipeline import Pipeline\n",
+        "from sklearn.linear_model import LinearRegression\n",
+        "from sklearn.metrics import r2_score, mean_absolute_error\n",
         "\n",
-        "# 1. Define feature lists (with corrected column names and target removed)\n",
-        "skwewd_col = ['Study_Hours']\n",
-        "\n",
-        "other_numeric_cols = [\n",
-        "    'Age', 'Avg_Daily_Usage_Hours', 'Daily_Unlocks',\n",
-        "    'Physical_Activity_Hours', 'Sleep_Hours_Per_Night'\n",
-        "]\n",
-        "\n",
-        "ordinal_col = ['Stress_Level']\n",
-        "\n",
-        "normal_col = [\n",
-        "    'Gender', 'Country', 'Academic_Level',\n",
-        "    'Most_Used_Platform', 'Purpose_Of_Use'\n",
-        "]\n",
-        "\n",
-        "# 2. Combine into feature matrix X and target y\n",
+        "# 1. Update feature_col to use 'Grouped country ' instead of 'Country'\n",
         "feature_col = skwewd_col + other_numeric_cols + ordinal_col + normal_col\n",
+        "\n",
+        "# 2. Re-create X and y using the updated feature list\n",
         "X = df[feature_col]\n",
         "y = df['Mental_Health_Score']\n",
         "\n",
-        "# 3. Train-Test Split (using capital X to match)\n",
+        "# 3. Re-split train/test data\n",
         "X_train, X_test, y_train, y_test = train_test_split(\n",
         "    X, y, test_size=0.30, random_state=42\n",
-        ")"
+        ")\n",
+        "\n",
+        "# 4. Build and fit pipeline\n",
+        "lr_pipeline = Pipeline(steps=[\n",
+        "    ('preprocessor', preprocessor),\n",
+        "    ('regressor', LinearRegression())\n",
+        "])\n",
+        "\n",
+        "lr_pipeline.fit(X_train, y_train)\n",
+        "\n",
+        "# 5. Predict and evaluate\n",
+        "lr_preds       = lr_pipeline.predict(X_test)\n",
+        "lr_preds_train = lr_pipeline.predict(X_train)\n",
+        "\n",
+        "lr_r2_testing  = r2_score(y_test, lr_preds)\n",
+        "lr_r2_training = r2_score(y_train, lr_preds_train)\n",
+        "lr_mae         = mean_absolute_error(y_test, lr_preds)\n",
+        "\n",
+        "print(f\"Accuracy of Training {lr_r2_training}\")\n",
+        "print(f\"Accuracy of Testing {lr_r2_testing}\")\n",
+        "print(f'MAE {lr_mae}')"
       ],
       "metadata": {
-        "id": "n9HdEA6p4zJE"
+        "id": "n9HdEA6p4zJE",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "259a8b37-33d0-4009-a76f-616c34e9723e"
       },
-      "execution_count": 115,
-      "outputs": []
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Accuracy of Training 0.7318991298307534\n",
+            "Accuracy of Testing 0.7446750207322383\n",
+            "MAE 0.5364273713851445\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "code",
@@ -2129,7 +2149,7 @@
       "metadata": {
         "id": "rQk39ctk6zM8"
       },
-      "execution_count": 116,
+      "execution_count": 39,
       "outputs": []
     },
     {
@@ -2142,7 +2162,7 @@
       "metadata": {
         "id": "f5Iexmwarbah"
       },
-      "execution_count": 117,
+      "execution_count": 40,
       "outputs": []
     },
     {
@@ -2157,22 +2177,135 @@
     {
       "cell_type": "code",
       "source": [
-        "# Normal Feature Pipeline\n",
-        "normal_pipeline = Pipeline(steps=[\n",
-        "    ('encoder', OneHotEncoder(handle_unknown='ignore'))\n",
+        "from sklearn.pipeline import Pipeline\n",
+        "from sklearn.preprocessing import FunctionTransformer, StandardScaler, OrdinalEncoder, OneHotEncoder\n",
+        "from sklearn.compose import ColumnTransformer\n",
+        "#1. Skewed features\n",
+        "skew_pipeline = Pipeline(steps=[\n",
+        "    ('log_transform', FunctionTransformer(np.log1p)),\n",
+        "    ('scale', StandardScaler())\n",
+        "\n",
         "])\n",
         "\n",
-        "preprocessor = ColumnTransformer([\n",
-        "    ('skew', skew_pipeline, skwewd_col),\n",
-        "    ('plain_numeric', plain_numeric_pipeline, other_numeric_cols),\n",
-        "    ('ordinal', ordinal_pipeline, ordinal_col),\n",
-        "    ('nominal', normal_pipeline, normal_col)  # Changed nominal_pipeline -> normal_pipeline & nominal_col -> normal_col\n",
-        "])"
+        "#2. Numeric Features\n",
+        "plain_numeric_pipeline = Pipeline(steps=[\n",
+        "    ('scale',StandardScaler())\n",
+        "])\n",
+        "\n",
+        "#3. Ordinal\n",
+        "ordinal_pipeline = Pipeline(steps=[\n",
+        "    ('encode', OrdinalEncoder(categories=[['Low', 'Medium', 'High', 'Very High']]))\n",
+        "])\n",
+        "\n",
+        "#4. Nominal Features\n",
+        "nominal_pipeline = Pipeline(steps=[\n",
+        "    ('encode', OneHotEncoder(handle_unknown=\"ignore\"))\n",
+        "])\n",
+        "\n",
+        "\n",
+        "    # (konsi_pipeline, konsa_feature)\n",
+        "preprocessor = ColumnTransformer(transformers=[\n",
+        "    (\"Skewed_Pipeline\", skew_pipeline, skwewd_col),\n",
+        "    (\"Plain_Numeric\",plain_numeric_pipeline, other_numeric_cols ),\n",
+        "    ('Ordinal', ordinal_pipeline, ordinal_col),\n",
+        "    ('Normal', nominal_pipeline, normal_col)\n",
+        "])\n",
+        "\n"
       ],
       "metadata": {
         "id": "TH5cIrv0u--g"
       },
-      "execution_count": 118,
+      "execution_count": 41,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Build a Pipeline"
+      ],
+      "metadata": {
+        "id": "HBm07Y_q-BtG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "tFUOUdUb-Gj4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Baseline Linear Regression"
+      ],
+      "metadata": {
+        "id": "Kintwjla-WmB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.linear_model import LinearRegression\n",
+        "from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error\n",
+        "\n",
+        "lr_pipeline = Pipeline(steps=[\n",
+        "    ('preprocessor', preprocessor),\n",
+        "    ('regressor', LinearRegression())\n",
+        "])\n",
+        "\n",
+        "# Use capital X_train here to match your train_test_split variable\n",
+        "lr_pipeline.fit(X_train, y_train)\n",
+        "\n",
+        "lr_preds       = lr_pipeline.predict(X_test)\n",
+        "lr_preds_train = lr_pipeline.predict(X_train)\n",
+        "\n",
+        "lr_r2_testing  = r2_score(y_test, lr_preds)\n",
+        "lr_r2_training = r2_score(y_train, lr_preds_train)\n",
+        "lr_mae         = mean_absolute_error(y_test, lr_preds)\n",
+        "\n",
+        "print(f\"Accuracy of Training {lr_r2_training}\")\n",
+        "print(f\"Accuracy of Testing {lr_r2_testing}\")\n",
+        "print(f'MAE {lr_mae}')"
+      ],
+      "metadata": {
+        "id": "yJBtSK_G-btn",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "1cf988a8-5096-482f-e165-b0ed09f9fa87"
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Accuracy of Training 0.7318991298307534\n",
+            "Accuracy of Testing 0.7446750207322383\n",
+            "MAE 0.5364273713851445\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Random Forest Default Setting"
+      ],
+      "metadata": {
+        "id": "oc_OreOmJ754"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "8XSLu9PmKA4d"
+      },
+      "execution_count": null,
       "outputs": []
     }
   ]
