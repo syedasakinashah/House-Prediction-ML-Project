@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMUzJ2E8Kb2fyuHJSOeTkpA",
+      "authorship_tag": "ABX9TyOs1Rx8VXOSJapvO+EFNm6a",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -23,12 +23,12 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/syedasakinashah/House-Prediction-ML-Project/blob/main/House%20Prediction%20ML%20project\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/syedasakinashah/Mental-Health-Score--ML-Project/blob/main/House%20Prediction%20ML%20project\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
       "cell_type": "code",
-      "execution_count": 21,
+      "execution_count": 1,
       "metadata": {
         "id": "78HuDN8crm7h"
       },
@@ -53,9 +53,9 @@
           "height": 226
         },
         "id": "Vc4DFF2btV_9",
-        "outputId": "d19df34c-2230-46c2-808c-fa62e28769dc"
+        "outputId": "87c58371-a5a8-4997-c5b8-0aa96fd31d84"
       },
-      "execution_count": 22,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "display_data",
@@ -84,7 +84,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-fc383891-b0d9-4678-a316-8f9636fd37cd\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-212428bd-f535-4c8f-acd3-e2553db8238a\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -205,7 +205,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-fc383891-b0d9-4678-a316-8f9636fd37cd')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-212428bd-f535-4c8f-acd3-e2553db8238a')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -257,12 +257,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-fc383891-b0d9-4678-a316-8f9636fd37cd button.colab-df-convert');\n",
+              "        document.querySelector('#df-212428bd-f535-4c8f-acd3-e2553db8238a button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-fc383891-b0d9-4678-a316-8f9636fd37cd');\n",
+              "        const element = document.querySelector('#df-212428bd-f535-4c8f-acd3-e2553db8238a');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -305,9 +305,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "97y34i8tt6bc",
-        "outputId": "f5b57fb7-41c6-4604-b8d7-e5771a18c4ed"
+        "outputId": "823fa50e-60f3-401a-f914-5f8eadaf3bd5"
       },
-      "execution_count": 23,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -317,7 +317,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 23
+          "execution_count": 3
         }
       ]
     },
@@ -333,9 +333,9 @@
           "height": 226
         },
         "id": "gvkDYQZyu3vB",
-        "outputId": "eb56daa8-4199-4184-fd2f-fbb2759e6e86"
+        "outputId": "8bd40518-0cb1-4709-a949-bdbaaf2acfe0"
       },
-      "execution_count": 24,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -364,7 +364,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-f64ab539-e617-4b98-b5e7-2b418b2e00b2\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-a3ab8394-6aa6-4957-bae1-53a92078b19e\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -485,7 +485,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f64ab539-e617-4b98-b5e7-2b418b2e00b2')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-a3ab8394-6aa6-4957-bae1-53a92078b19e')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -537,12 +537,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-f64ab539-e617-4b98-b5e7-2b418b2e00b2 button.colab-df-convert');\n",
+              "        document.querySelector('#df-a3ab8394-6aa6-4957-bae1-53a92078b19e button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-f64ab539-e617-4b98-b5e7-2b418b2e00b2');\n",
+              "        const element = document.querySelector('#df-a3ab8394-6aa6-4957-bae1-53a92078b19e');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -572,7 +572,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 24
+          "execution_count": 4
         }
       ]
     },
@@ -587,9 +587,9 @@
           "height": 492
         },
         "id": "kd6RnV2SzAdF",
-        "outputId": "037ded05-25e7-4ca8-89d8-4270e961f02f"
+        "outputId": "f793e63a-0fd6-4bd0-93d0-28885cf357c4"
       },
-      "execution_count": 25,
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -691,7 +691,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 25
+          "execution_count": 5
         }
       ]
     },
@@ -705,9 +705,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Z9KrEc-EzaK0",
-        "outputId": "2ac2b495-94b2-4ae8-edb9-5721ed27cc3f"
+        "outputId": "a9d8e1de-637a-423a-d609-9cf58bb70b3f"
       },
-      "execution_count": 26,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -717,7 +717,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 26
+          "execution_count": 6
         }
       ]
     },
@@ -731,9 +731,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "y-2anx12xzj0",
-        "outputId": "78bcab82-ba8f-4426-b9ed-488d8fb3912e"
+        "outputId": "6988ff4f-21b1-4d79-cdc3-cc63658e1bde"
       },
-      "execution_count": 27,
+      "execution_count": 7,
       "outputs": [
         {
           "output_type": "stream",
@@ -774,9 +774,9 @@
           "height": 320
         },
         "id": "vReK_ZobyRkh",
-        "outputId": "2b2ef72a-42bb-4cdf-d5a5-43e5a5dcb406"
+        "outputId": "152e54e4-e2f8-4f13-9ef3-ba8c0305fd04"
       },
-      "execution_count": 28,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -804,7 +804,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-cb8c15b7-e819-4037-816a-95698a824346\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-a74f3438-2a91-4dc7-9b27-d9b633a4ebe4\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -919,7 +919,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-cb8c15b7-e819-4037-816a-95698a824346')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-a74f3438-2a91-4dc7-9b27-d9b633a4ebe4')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -971,12 +971,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-cb8c15b7-e819-4037-816a-95698a824346 button.colab-df-convert');\n",
+              "        document.querySelector('#df-a74f3438-2a91-4dc7-9b27-d9b633a4ebe4 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-cb8c15b7-e819-4037-816a-95698a824346');\n",
+              "        const element = document.querySelector('#df-a74f3438-2a91-4dc7-9b27-d9b633a4ebe4');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1005,7 +1005,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 28
+          "execution_count": 8
         }
       ]
     },
@@ -1020,9 +1020,9 @@
           "height": 467
         },
         "id": "zgBF_Zcj1SQC",
-        "outputId": "d784728f-d053-4606-b997-bed533a31286"
+        "outputId": "75126ff6-88ef-4361-92e1-bd068c34b4e7"
       },
-      "execution_count": 29,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1032,7 +1032,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 29
+          "execution_count": 9
         },
         {
           "output_type": "display_data",
@@ -1057,9 +1057,9 @@
           "height": 604
         },
         "id": "NcMZaddG3C85",
-        "outputId": "b0ca4cc5-0aea-4293-fadf-3044f0f01b0f"
+        "outputId": "d9ee1256-0dcf-4e80-932c-478fcffcb24e"
       },
-      "execution_count": 30,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1069,7 +1069,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 30
+          "execution_count": 10
         },
         {
           "output_type": "display_data",
@@ -1093,9 +1093,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "EvSPO_SF86g9",
-        "outputId": "9ad7cd72-8e45-4678-dbda-95fcbfe15bf0"
+        "outputId": "45cf94a6-3bb1-421b-a9e2-9f4799438f3d"
       },
-      "execution_count": 31,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1109,7 +1109,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 31
+          "execution_count": 11
         }
       ]
     },
@@ -1123,9 +1123,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "CcZ03j786b0V",
-        "outputId": "a04ded96-eed4-4340-a925-b4ab53afa70a"
+        "outputId": "a2244135-9d29-4fa6-d133-83882c17e76d"
       },
-      "execution_count": 32,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1135,7 +1135,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 32
+          "execution_count": 12
         }
       ]
     },
@@ -1151,9 +1151,9 @@
           "height": 467
         },
         "id": "HCdkEGOY7J3o",
-        "outputId": "f6f995da-10b0-4272-d980-f526a9fc4939"
+        "outputId": "df6ca906-1059-4530-bc58-b81c1d2dd53c"
       },
-      "execution_count": 33,
+      "execution_count": 13,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1163,7 +1163,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 33
+          "execution_count": 13
         },
         {
           "output_type": "display_data",
@@ -1188,9 +1188,9 @@
           "height": 467
         },
         "id": "ivdEDT6u8vUi",
-        "outputId": "eae2cca7-704a-4fdb-aa1f-36b6f15f934d"
+        "outputId": "7534ce98-72b9-4a5b-a3f0-a5ee4c1f4c60"
       },
-      "execution_count": 34,
+      "execution_count": 14,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1200,7 +1200,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 34
+          "execution_count": 14
         },
         {
           "output_type": "display_data",
@@ -1224,9 +1224,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "L2dCehN992fa",
-        "outputId": "83e63afa-d5b5-458d-c3a9-4a086de6b882"
+        "outputId": "5201a01f-f20a-4d50-c6b4-5703984e5f25"
       },
-      "execution_count": 35,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1240,7 +1240,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 35
+          "execution_count": 15
         }
       ]
     },
@@ -1255,9 +1255,9 @@
           "height": 467
         },
         "id": "Hu7Co7lj95rR",
-        "outputId": "c19be1af-b685-49c0-f4b8-b707e686c055"
+        "outputId": "10a18978-ad9c-4973-aeb2-85c30c188536"
       },
-      "execution_count": 36,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1267,7 +1267,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 36
+          "execution_count": 16
         },
         {
           "output_type": "display_data",
@@ -1292,9 +1292,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "d3hpVHWh-pjd",
-        "outputId": "d6ccfc96-6c31-4494-d650-9f89aa856ed9"
+        "outputId": "5f542bb6-0c69-4dfb-8ea8-258776e18f0e"
       },
-      "execution_count": 37,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "stream",
@@ -1329,9 +1329,9 @@
           "height": 492
         },
         "id": "8lCxR5px_rWi",
-        "outputId": "8c13d807-7da9-4a64-a152-799acca3ea20"
+        "outputId": "0567def8-c1d9-49af-9173-646c947f4cbe"
       },
-      "execution_count": 38,
+      "execution_count": 18,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1433,7 +1433,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 38
+          "execution_count": 18
         }
       ]
     },
@@ -1448,9 +1448,9 @@
           "height": 467
         },
         "id": "APOEvrtEAYnY",
-        "outputId": "cf4e3000-a65e-4cb2-8856-c4cb1ed697c7"
+        "outputId": "3238df9c-d0c0-487e-ad9a-906f284633b4"
       },
-      "execution_count": 39,
+      "execution_count": 19,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1460,7 +1460,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 39
+          "execution_count": 19
         },
         {
           "output_type": "display_data",
@@ -1503,9 +1503,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Wn1RKzgTBinL",
-        "outputId": "1f15cfa4-883b-4ee3-8e48-988563b4fc87"
+        "outputId": "d1ab9420-2f33-46eb-eb42-d532417bbc56"
       },
-      "execution_count": 41,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "stream",
@@ -1543,29 +1543,29 @@
           "height": 320
         },
         "id": "h5EP2oQP_ahe",
-        "outputId": "7e3567a8-198e-4b1c-b173-223d9849759d"
+        "outputId": "c84fc333-dc39-407e-a593-5310fe4bffb6"
       },
-      "execution_count": 52,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "               Age  Avg_Daily_Usage_Hours  Daily_Unlocks  Study_Hours  \\\n",
-              "count  4998.000000            4998.000000    4998.000000  4998.000000   \n",
-              "mean     20.822129               5.078491     171.455582     3.008403   \n",
-              "std       1.736774               1.654097      42.859829     1.636831   \n",
-              "min      18.000000               1.000000      62.000000     0.300000   \n",
-              "25%      19.000000               3.800000     140.000000     1.500000   \n",
-              "50%      21.000000               5.000000     171.000000     2.800000   \n",
-              "75%      22.000000               6.300000     204.000000     4.200000   \n",
-              "max      24.000000               8.800000     273.000000     8.300000   \n",
+              "              Age  Avg_Daily_Usage_Hours  Daily_Unlocks  Study_Hours  \\\n",
+              "count  5000.00000            5000.000000    5000.000000  5000.000000   \n",
+              "mean     20.82180               5.078460     171.452600     3.008420   \n",
+              "std       1.73662               1.653913      42.858254     1.637018   \n",
+              "min      18.00000               1.000000      62.000000     0.300000   \n",
+              "25%      19.00000               3.800000     140.000000     1.500000   \n",
+              "50%      21.00000               5.000000     171.000000     2.800000   \n",
+              "75%      22.00000               6.300000     204.000000     4.200000   \n",
+              "max      24.00000               8.800000     273.000000     8.300000   \n",
               "\n",
               "       Physical_Activity_Hours  Sleep_Hours_Per_Night  Mental_Health_Score  \n",
-              "count              4998.000000            4998.000000          4998.000000  \n",
-              "mean                  1.751160               6.634654             6.231152  \n",
-              "std                   0.667282               1.221561             1.278476  \n",
-              "min                   0.000000               3.600000             3.600000  \n",
+              "count              5000.000000            5000.000000          5000.000000  \n",
+              "mean                  1.751000               6.634580             6.230980  \n",
+              "std                   0.668398               1.221391             1.278701  \n",
+              "min                  -0.400000               3.600000             3.600000  \n",
               "25%                   1.300000               5.600000             5.100000  \n",
               "50%                   1.700000               6.600000             6.100000  \n",
               "75%                   2.200000               7.500000             7.100000  \n",
@@ -1573,7 +1573,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-117f474f-377d-4476-ae33-dbbfaeed5d42\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-e86136c5-f23c-4e9d-b8d4-03b319fa5367\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -1604,47 +1604,47 @@
               "  <tbody>\n",
               "    <tr>\n",
               "      <th>count</th>\n",
-              "      <td>4998.000000</td>\n",
-              "      <td>4998.000000</td>\n",
-              "      <td>4998.000000</td>\n",
-              "      <td>4998.000000</td>\n",
-              "      <td>4998.000000</td>\n",
-              "      <td>4998.000000</td>\n",
-              "      <td>4998.000000</td>\n",
+              "      <td>5000.00000</td>\n",
+              "      <td>5000.000000</td>\n",
+              "      <td>5000.000000</td>\n",
+              "      <td>5000.000000</td>\n",
+              "      <td>5000.000000</td>\n",
+              "      <td>5000.000000</td>\n",
+              "      <td>5000.000000</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>mean</th>\n",
-              "      <td>20.822129</td>\n",
-              "      <td>5.078491</td>\n",
-              "      <td>171.455582</td>\n",
-              "      <td>3.008403</td>\n",
-              "      <td>1.751160</td>\n",
-              "      <td>6.634654</td>\n",
-              "      <td>6.231152</td>\n",
+              "      <td>20.82180</td>\n",
+              "      <td>5.078460</td>\n",
+              "      <td>171.452600</td>\n",
+              "      <td>3.008420</td>\n",
+              "      <td>1.751000</td>\n",
+              "      <td>6.634580</td>\n",
+              "      <td>6.230980</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>std</th>\n",
-              "      <td>1.736774</td>\n",
-              "      <td>1.654097</td>\n",
-              "      <td>42.859829</td>\n",
-              "      <td>1.636831</td>\n",
-              "      <td>0.667282</td>\n",
-              "      <td>1.221561</td>\n",
-              "      <td>1.278476</td>\n",
+              "      <td>1.73662</td>\n",
+              "      <td>1.653913</td>\n",
+              "      <td>42.858254</td>\n",
+              "      <td>1.637018</td>\n",
+              "      <td>0.668398</td>\n",
+              "      <td>1.221391</td>\n",
+              "      <td>1.278701</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>min</th>\n",
-              "      <td>18.000000</td>\n",
+              "      <td>18.00000</td>\n",
               "      <td>1.000000</td>\n",
               "      <td>62.000000</td>\n",
               "      <td>0.300000</td>\n",
-              "      <td>0.000000</td>\n",
+              "      <td>-0.400000</td>\n",
               "      <td>3.600000</td>\n",
               "      <td>3.600000</td>\n",
               "    </tr>\n",
               "    <tr>\n",
               "      <th>25%</th>\n",
-              "      <td>19.000000</td>\n",
+              "      <td>19.00000</td>\n",
               "      <td>3.800000</td>\n",
               "      <td>140.000000</td>\n",
               "      <td>1.500000</td>\n",
@@ -1654,7 +1654,7 @@
               "    </tr>\n",
               "    <tr>\n",
               "      <th>50%</th>\n",
-              "      <td>21.000000</td>\n",
+              "      <td>21.00000</td>\n",
               "      <td>5.000000</td>\n",
               "      <td>171.000000</td>\n",
               "      <td>2.800000</td>\n",
@@ -1664,7 +1664,7 @@
               "    </tr>\n",
               "    <tr>\n",
               "      <th>75%</th>\n",
-              "      <td>22.000000</td>\n",
+              "      <td>22.00000</td>\n",
               "      <td>6.300000</td>\n",
               "      <td>204.000000</td>\n",
               "      <td>4.200000</td>\n",
@@ -1674,7 +1674,7 @@
               "    </tr>\n",
               "    <tr>\n",
               "      <th>max</th>\n",
-              "      <td>24.000000</td>\n",
+              "      <td>24.00000</td>\n",
               "      <td>8.800000</td>\n",
               "      <td>273.000000</td>\n",
               "      <td>8.300000</td>\n",
@@ -1688,7 +1688,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-117f474f-377d-4476-ae33-dbbfaeed5d42')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-e86136c5-f23c-4e9d-b8d4-03b319fa5367')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -1740,12 +1740,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-117f474f-377d-4476-ae33-dbbfaeed5d42 button.colab-df-convert');\n",
+              "        document.querySelector('#df-e86136c5-f23c-4e9d-b8d4-03b319fa5367 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-117f474f-377d-4476-ae33-dbbfaeed5d42');\n",
+              "        const element = document.querySelector('#df-e86136c5-f23c-4e9d-b8d4-03b319fa5367');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -1770,11 +1770,11 @@
             ],
             "application/vnd.google.colaboratory.intrinsic+json": {
               "type": "dataframe",
-              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 8,\n  \"fields\": [\n    {\n      \"column\": \"Age\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1760.6812230206492,\n        \"min\": 1.7367741189941746,\n        \"max\": 4998.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          20.822128851540615,\n          21.0,\n          4998.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Avg_Daily_Usage_Hours\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1765.463905048946,\n        \"min\": 1.0,\n        \"max\": 4998.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          5.078491396558623,\n          5.0,\n          4998.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Daily_Unlocks\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1714.8973090474574,\n        \"min\": 42.85982859036208,\n        \"max\": 4998.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          171.45558223289316,\n          171.0,\n          4998.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Study_Hours\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1765.9631998270443,\n        \"min\": 0.3,\n        \"max\": 4998.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          3.008403361344538,\n          2.8,\n          4998.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Physical_Activity_Hours\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1766.4683848676655,\n        \"min\": 0.0,\n        \"max\": 4998.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          1.7511604641856742,\n          1.7,\n          4998.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Sleep_Hours_Per_Night\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1764.9880901646547,\n        \"min\": 1.2215608526742143,\n        \"max\": 4998.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          6.634653861544618,\n          6.6,\n          4998.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Mental_Health_Score\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1765.101292428318,\n        \"min\": 1.278475894466755,\n        \"max\": 4998.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          6.2311524609843945,\n          6.1,\n          4998.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 8,\n  \"fields\": [\n    {\n      \"column\": \"Age\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1761.388348896487,\n        \"min\": 1.736619684785882,\n        \"max\": 5000.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          20.8218,\n          21.0,\n          5000.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Avg_Daily_Usage_Hours\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1766.1710220423208,\n        \"min\": 1.0,\n        \"max\": 5000.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          5.07846,\n          5.0,\n          5000.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Daily_Unlocks\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1715.603998493103,\n        \"min\": 42.8582538051172,\n        \"max\": 5000.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          171.4526,\n          171.0,\n          5000.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Study_Hours\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1766.6702956708368,\n        \"min\": 0.3,\n        \"max\": 5000.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          3.00842,\n          2.8,\n          5000.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Physical_Activity_Hours\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1767.1957058218093,\n        \"min\": -0.4,\n        \"max\": 5000.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          1.751,\n          1.7,\n          5000.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Sleep_Hours_Per_Night\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1765.6952085425294,\n        \"min\": 1.2213912489110859,\n        \"max\": 5000.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          6.634579999999999,\n          6.6,\n          5000.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Mental_Health_Score\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1765.8083957911363,\n        \"min\": 1.278701394013087,\n        \"max\": 5000.0,\n        \"num_unique_values\": 8,\n        \"samples\": [\n          6.230980000000001,\n          6.1,\n          5000.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
             }
           },
           "metadata": {},
-          "execution_count": 52
+          "execution_count": 21
         }
       ]
     },
@@ -1789,7 +1789,7 @@
       "metadata": {
         "id": "Qg5NtTiS-xbM"
       },
-      "execution_count": 53,
+      "execution_count": 22,
       "outputs": []
     },
     {
@@ -1803,12 +1803,237 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "num_cols = df.select_dtypes(include='number')\n",
+        "num_cols.skew()\n",
+        "#near to 0< centraalized ( 0.123)\n",
+        "#negative < left skewed value (-345.44)\n",
+        "#positive( greater than 0)< right side skewed (34324.34)"
+      ],
       "metadata": {
-        "id": "2xTHn5kDAzlr"
+        "id": "2xTHn5kDAzlr",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 304
+        },
+        "outputId": "2e0ebecd-06ef-4d84-9ac2-2193da128a90"
       },
-      "execution_count": null,
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "Age                        0.155008\n",
+              "Avg_Daily_Usage_Hours      0.005575\n",
+              "Daily_Unlocks              0.002309\n",
+              "Study_Hours                0.436125\n",
+              "Physical_Activity_Hours    0.053288\n",
+              "Sleep_Hours_Per_Night      0.123919\n",
+              "Mental_Health_Score        0.207086\n",
+              "dtype: float64"
+            ],
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>0</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>Age</th>\n",
+              "      <td>0.155008</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Avg_Daily_Usage_Hours</th>\n",
+              "      <td>0.005575</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Daily_Unlocks</th>\n",
+              "      <td>0.002309</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Study_Hours</th>\n",
+              "      <td>0.436125</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Physical_Activity_Hours</th>\n",
+              "      <td>0.053288</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Sleep_Hours_Per_Night</th>\n",
+              "      <td>0.123919</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Mental_Health_Score</th>\n",
+              "      <td>0.207086</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div><br><label><b>dtype:</b> float64</label>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 27
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Featured Engineering"
+      ],
+      "metadata": {
+        "id": "mYJ8uJw4y870"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "top_countries=df['Country'].value_counts().index[:10].tolist()\n",
+        "def group_countries(country):\n",
+        "  if country in top_countries:\n",
+        "    return country\n",
+        "  else:\n",
+        "    return 'other'\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "QmiCya1vzBPE"
+      },
+      "execution_count": 38,
       "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df['Grouped country ']=df['Country'].apply(group_countries)\n",
+        "df['Grouped country '].value_counts()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 460
+        },
+        "id": "DWr8nVmz04Cw",
+        "outputId": "eec7d836-fbfa-4d78-e475-67e8cc68872d"
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "Grouped country \n",
+              "Other        1879\n",
+              "other        1352\n",
+              "India         389\n",
+              "USA           354\n",
+              "Canada        230\n",
+              "Australia     198\n",
+              "UK            185\n",
+              "Germany       136\n",
+              "Mexico         94\n",
+              "Turkey         94\n",
+              "France         87\n",
+              "Name: count, dtype: int64"
+            ],
+            "text/html": [
+              "<div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>count</th>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Grouped country</th>\n",
+              "      <th></th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>Other</th>\n",
+              "      <td>1879</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>other</th>\n",
+              "      <td>1352</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>India</th>\n",
+              "      <td>389</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>USA</th>\n",
+              "      <td>354</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Canada</th>\n",
+              "      <td>230</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Australia</th>\n",
+              "      <td>198</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>UK</th>\n",
+              "      <td>185</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Germany</th>\n",
+              "      <td>136</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Mexico</th>\n",
+              "      <td>94</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>Turkey</th>\n",
+              "      <td>94</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>France</th>\n",
+              "      <td>87</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div><br><label><b>dtype:</b> int64</label>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 41
+        }
+      ]
     }
   ]
 }
