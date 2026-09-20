@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOo17Bx7xOjSBgOFwbi6mvs",
+      "authorship_tag": "ABX9TyOu1LmGbApfn42NxbdCWeo0",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -2054,9 +2054,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "0vUPtrX46Ife",
-        "outputId": "a01722f4-fa3e-45cb-d82e-88b76767e264"
+        "outputId": "366d5b9a-a82c-4bea-c567-d35b7699046e"
       },
-      "execution_count": 76,
+      "execution_count": 114,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2070,24 +2070,47 @@
             ]
           },
           "metadata": {},
-          "execution_count": 76
+          "execution_count": 114
         }
       ]
     },
     {
       "cell_type": "code",
       "source": [
+        "from sklearn.model_selection import train_test_split\n",
+        "from sklearn.preprocessing import OneHotEncoder, StandardScaler, OrdinalEncoder\n",
+        "from sklearn.compose import ColumnTransformer\n",
+        "from sklearn.pipeline import Pipeline\n",
+        "\n",
+        "# 1. Define feature lists (with corrected column names and target removed)\n",
         "skwewd_col = ['Study_Hours']\n",
         "\n",
         "other_numeric_cols = [\n",
         "    'Age', 'Avg_Daily_Usage_Hours', 'Daily_Unlocks',\n",
         "    'Physical_Activity_Hours', 'Sleep_Hours_Per_Night'\n",
-        "]"
+        "]\n",
+        "\n",
+        "ordinal_col = ['Stress_Level']\n",
+        "\n",
+        "normal_col = [\n",
+        "    'Gender', 'Country', 'Academic_Level',\n",
+        "    'Most_Used_Platform', 'Purpose_Of_Use'\n",
+        "]\n",
+        "\n",
+        "# 2. Combine into feature matrix X and target y\n",
+        "feature_col = skwewd_col + other_numeric_cols + ordinal_col + normal_col\n",
+        "X = df[feature_col]\n",
+        "y = df['Mental_Health_Score']\n",
+        "\n",
+        "# 3. Train-Test Split (using capital X to match)\n",
+        "X_train, X_test, y_train, y_test = train_test_split(\n",
+        "    X, y, test_size=0.30, random_state=42\n",
+        ")"
       ],
       "metadata": {
         "id": "n9HdEA6p4zJE"
       },
-      "execution_count": 93,
+      "execution_count": 115,
       "outputs": []
     },
     {
@@ -2106,7 +2129,7 @@
       "metadata": {
         "id": "rQk39ctk6zM8"
       },
-      "execution_count": 96,
+      "execution_count": 116,
       "outputs": []
     },
     {
@@ -2119,7 +2142,37 @@
       "metadata": {
         "id": "f5Iexmwarbah"
       },
-      "execution_count": 97,
+      "execution_count": 117,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Pre Processing Using Column Transformer\n"
+      ],
+      "metadata": {
+        "id": "2SLIXErju5lV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Normal Feature Pipeline\n",
+        "normal_pipeline = Pipeline(steps=[\n",
+        "    ('encoder', OneHotEncoder(handle_unknown='ignore'))\n",
+        "])\n",
+        "\n",
+        "preprocessor = ColumnTransformer([\n",
+        "    ('skew', skew_pipeline, skwewd_col),\n",
+        "    ('plain_numeric', plain_numeric_pipeline, other_numeric_cols),\n",
+        "    ('ordinal', ordinal_pipeline, ordinal_col),\n",
+        "    ('nominal', normal_pipeline, normal_col)  # Changed nominal_pipeline -> normal_pipeline & nominal_col -> normal_col\n",
+        "])"
+      ],
+      "metadata": {
+        "id": "TH5cIrv0u--g"
+      },
+      "execution_count": 118,
       "outputs": []
     }
   ]
